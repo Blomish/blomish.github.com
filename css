@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;  
+  background-color:black;
+}
+input {
+
+  text-align:center;
+  font-size:34px;
+  color:blue;
+  width:100vw;
+  height:100vh;
+  color:deeppink;
+  border:none;
+}
+input::placeholder{
+  color:deeppink;
+}
+#oi{
+  position:fixed;
+  top:0;
+  width:calc(100vw - 400px);
+  height:35px;
+  margin-top:10px;
+  background-color:darkgray;
+  text-align:center;
+  border-left:200px solid black;
+  border-right:200px solid black;
+  outline:none;
+}
+
+@media only screen and (max-width: 800px) {
+  #oi{
+    width:100vw;
+    border:none;
+  }
+}
